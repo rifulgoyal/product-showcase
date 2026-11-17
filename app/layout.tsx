@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import "./globals.css";
 
+import "./globals.css";
 export const metadata: Metadata = {
   title: "Product Store — Typed Props",
   description: "Build reusable, typed components with props.",
