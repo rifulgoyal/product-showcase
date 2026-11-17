@@ -9,5 +9,5 @@ type Props = {
 
 export default function Greeting({name }: Props) {
 
-  return <h2 className="todo">Hello {name} !!</h2>;
+  return <h2 className="todo">Hello, {name} !!</h2>;
 }

@@ -6,5 +6,5 @@ type Props = {
 };
 
 export default function PriceTag({amount} : Props) {
-  return <span className="todo">${amount}</span>;
+  return <span className="todo">Price:  $ {amount}</span>;
 }

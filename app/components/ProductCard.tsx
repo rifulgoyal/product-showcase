@@ -18,7 +18,7 @@ export default function ProductCard({title, price , inStock}: Props) {
   return (
     <div className="card">
       <h3 className="todo">{title}</h3>
-      <p className="todo">{<PriceTag amount={price}/>} <br />{inStock ? "In Stock" : "Sold out"}</p>
+      <p className="todo">{<PriceTag amount={price}/>} <br /> Stock Status: {inStock ? "In Stock" : "Sold out"}</p>
     </div>
   );
 }
